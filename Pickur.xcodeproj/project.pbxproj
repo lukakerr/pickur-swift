@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10148361E8B9D35001E70E4 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A10148351E8B9D35001E70E4 /* icon.icns */; };
+		A174A4B81E8907C800998DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174A4B71E8907C800998DB2 /* AppDelegate.swift */; };
+		A174A4BA1E8907C800998DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A174A4B91E8907C800998DB2 /* Assets.xcassets */; };
+		A174A4DF1E890CB700998DB2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174A4DD1E890CB700998DB2 /* MenuViewController.swift */; };
+		A174A4E01E890CB700998DB2 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A174A4DE1E890CB700998DB2 /* MenuViewController.xib */; };
+		A1E7E65B1E8F5C200074A514 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E7E65A1E8F5C200074A514 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10148351E8B9D35001E70E4 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		A174A4B41E8907C800998DB2 /* Pickur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A174A4B71E8907C800998DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A174A4B91E8907C800998DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A174A4BE1E8907C800998DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A174A4DD1E890CB700998DB2 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A174A4DE1E890CB700998DB2 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		A1E7E65A1E8F5C200074A514 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A174A4B11E8907C800998DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A174A4AB1E8907C800998DB2 = {
+			isa = PBXGroup;
+			children = (
+				A174A4B61E8907C800998DB2 /* Pickur */,
+				A174A4B51E8907C800998DB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A174A4B51E8907C800998DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A174A4B41E8907C800998DB2 /* Pickur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A174A4B61E8907C800998DB2 /* Pickur */ = {
+			isa = PBXGroup;
+			children = (
+				A174A4B71E8907C800998DB2 /* AppDelegate.swift */,
+				A174A4DD1E890CB700998DB2 /* MenuViewController.swift */,
+				A174A4DE1E890CB700998DB2 /* MenuViewController.xib */,
+				A174A4B91E8907C800998DB2 /* Assets.xcassets */,
+				A1E7E65A1E8F5C200074A514 /* MainMenu.xib */,
+				A174A4BE1E8907C800998DB2 /* Info.plist */,
+				A10148351E8B9D35001E70E4 /* icon.icns */,
+			);
+			path = Pickur;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A174A4B31E8907C800998DB2 /* Pickur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A174A4C11E8907C800998DB2 /* Build configuration list for PBXNativeTarget "Pickur" */;
+			buildPhases = (
+				A174A4B01E8907C800998DB2 /* Sources */,
+				A174A4B11E8907C800998DB2 /* Frameworks */,
+				A174A4B21E8907C800998DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pickur;
+			productName = MenuBar;
+			productReference = A174A4B41E8907C800998DB2 /* Pickur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A174A4AC1E8907C800998DB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luka Kerr";
+				TargetAttributes = {
+					A174A4B31E8907C800998DB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A174A4AF1E8907C800998DB2 /* Build configuration list for PBXProject "Pickur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A174A4AB1E8907C800998DB2;
+			productRefGroup = A174A4B51E8907C800998DB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A174A4B31E8907C800998DB2 /* Pickur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A174A4B21E8907C800998DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A174A4BA1E8907C800998DB2 /* Assets.xcassets in Resources */,
+				A10148361E8B9D35001E70E4 /* icon.icns in Resources */,
+				A174A4E01E890CB700998DB2 /* MenuViewController.xib in Resources */,
+				A1E7E65B1E8F5C200074A514 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A174A4B01E8907C800998DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A174A4B81E8907C800998DB2 /* AppDelegate.swift in Sources */,
+				A174A4DF1E890CB700998DB2 /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A174A4BF1E8907C800998DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A174A4C01E8907C800998DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A174A4C21E8907C800998DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Pickur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukakerr.Pickur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A174A4C31E8907C800998DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Pickur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukakerr.Pickur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A174A4AF1E8907C800998DB2 /* Build configuration list for PBXProject "Pickur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A174A4BF1E8907C800998DB2 /* Debug */,
+				A174A4C01E8907C800998DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A174A4C11E8907C800998DB2 /* Build configuration list for PBXNativeTarget "Pickur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A174A4C21E8907C800998DB2 /* Debug */,
+				A174A4C31E8907C800998DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A174A4AC1E8907C800998DB2 /* Project object */;
+}
